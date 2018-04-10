@@ -22,8 +22,6 @@ int main(int argc, const char * argv[]) {
             // limit input to max 255 characters
             fgets(inputChars, 255, stdin);
             
-            
-            
             // print as a c string
             printf("Your string is %s\n", inputChars);
             
